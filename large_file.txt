@@ -1,0 +1,7 @@
+Think of a Python generator as a "lazy" function.
+ Instead of doing all the work upfront and handing you a giant box of results (like a list),
+  a generator gives you one item at a time,
+   only when you ask for it.Why use them?
+   Memory Efficiency: They don't store the whole sequence in memory.
+    This is perfect for reading massive files or infinite data streams.Speed: You can start processing the first result immediately
+     without waiting for the entire list to be generated.Stateful: They "pause" their execution and remember where they left off.1. The yield Keyword
