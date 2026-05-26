@@ -1,0 +1,11 @@
+Student_ID,Name,Age,Department,Marks,City,Salary
+101,Rahul,20,CSE,85,Lucknow,50000
+102,Priya,21,IT,90,Delhi,
+103,Aman,,ECE,78,Kanpur,45000
+104,Neha,22,CSE,,Mumbai,62000
+105,Rohan,20,,74,Pune,48000
+106,Simran,21,IT,88,,54000
+107,Arjun,23,ECE,81,Chennai,
+108,,20,CSE,95,Hyderabad,70000
+109,Vikas,22,ME,,Bhopal,46000
+110,Anjali,,IT,87,Kolkata,52000
