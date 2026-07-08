@@ -17,3 +17,12 @@ print(group_by)
 ## Aggregate multiple function 
 groupe_agg = df.groupby('Name')['Age'].agg(['mean','sum','count'])
 print(groupe_agg)
+
+##merging and joining db 
+
+df1 = pd.DataFrame({'key':['A','B','C'],'value1':[1,2,3]})
+df2 = pd.DataFrame({'key':['A','B','D'],'value2':[4,5,6]})
+
+## Merge dataframe on the 'key columns'
+df3 = pd.merge(df1,df2, on = "key", how = "inner")
+print(df3)
