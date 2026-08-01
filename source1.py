@@ -15,3 +15,7 @@ read3 = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/i
 print(read3)
 
 read4 = df.to_csv("wine.csv")
+
+url = "https://www.fdic.gov/bank-failures/failed-bank-list"
+read5 = pd.read_html(url)
+print(read5)
