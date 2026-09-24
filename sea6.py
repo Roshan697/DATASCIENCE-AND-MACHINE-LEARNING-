@@ -5,3 +5,5 @@ tips = sns.load_dataset('tips')
 
 sns.histplot(tips['total_bill'],bins = 10,kde = True)
 plt.show()
+sns.kdeplot(tips['total_bill'],fill = True)
+plt.show()
